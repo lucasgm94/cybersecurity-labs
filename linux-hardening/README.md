@@ -11,17 +11,17 @@ To secure a fresh Linux (Ubuntu/Debian) installation against common external thr
 
 ### 1. Network Perimeter Security (UFW)
 Implemented strict firewall policies to deny all incoming traffic by default, allowing only essential SSH connections.
-![Firewall Status](img/01-ufw-status.png)
+![Firewall Status](screenshot3.png)
 
 ### 2. SSH Hardening
 Hardened the SSH service to mitigate brute-force and credential-stuffing attacks:
 - **Port Obfuscation:** Changed the default `22` port to `2222`.
 - **Root Access Restriction:** Disabled remote root login (`PermitRootLogin no`).
-![SSH Configuration](img/02-ssh-config.png)
+![SSH Configuration](screenshot7.png)
 
 ### 3. Identity & Access Management (IAM)
 Adhered to the principle of least privilege by creating a dedicated non-root user with administrative (`sudo`) capabilities.
-![User Groups](img/03-user-groups.png)
+![User Groups](screenshot12.png)
 
 ---
 
