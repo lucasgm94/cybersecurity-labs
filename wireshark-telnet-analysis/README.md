@@ -44,7 +44,7 @@ During the packet inspection, I used the **TCP Stream Reconstruction** feature. 
 ### 🖼️ Evidence: TCP Stream Reconstruction
 The following image captures the exact moment where the login process was intercepted. Notice how the credentials `msfadmin` are clearly visible within the data stream:
 
-![Network Analysis Evidence](TU_IMAGEN_AQUI.png)
+![Network Analysis Evidence](screenshots/11-telnet-credentials-exposure.png)
 *Caption: Full reconstruction of the Telnet session. Red text represents client-side input, while blue represents server-side response.*
 
 ---
