@@ -30,14 +30,24 @@ After entering the credentials (`msfadmin`/`msfadmin`), the session was closed. 
 
 ---
 
-## 📊 Results & Evidence
+## 📊 Results & Evidence: The "Smoking Gun" 🕵️‍♂️
 
-### Captured Credentials
-> [!IMPORTANT]
-> As seen in the screenshot below, the Telnet protocol sends data in **Clear Text**. Every keystroke, including the password, is visible to anyone sniffing the network.
+### 🔓 Vulnerability Analysis
+During the packet inspection, I used the **TCP Stream Reconstruction** feature. Unlike modern encrypted protocols (like SSH), Telnet transmits data in **Plain Text**. 
 
-![Wireshark Capture](pon_aqui_el_nombre_de_tu_foto.png)
-*Caption: TCP Stream reconstruction showing plain-text credentials.*
+> [!CAUTION]
+> ### Critical Security Flaw: Clear Text Transmission
+> As demonstrated in the evidence below, the Telnet protocol does not use encryption. Every single keystroke—including the **username**, **password**, and **system commands**—is captured and reconstructed effortlessly. This exposes the infrastructure to credential harvesting and full system compromise.
+
+---
+
+### 🖼️ Evidence: TCP Stream Reconstruction
+The following image captures the exact moment where the login process was intercepted. Notice how the credentials `msfadmin` are clearly visible within the data stream:
+
+![Network Analysis Evidence](TU_IMAGEN_AQUI.png)
+*Caption: Full reconstruction of the Telnet session. Red text represents client-side input, while blue represents server-side response.*
+
+---
 
 ---
 
