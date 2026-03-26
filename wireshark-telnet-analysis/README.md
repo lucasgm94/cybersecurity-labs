@@ -49,5 +49,5 @@ After entering the credentials (`msfadmin`/`msfadmin`), the session was closed. 
 ---
 ## 👤 Author
 **Your Name**
-* [LinkedIn](TU_LINK_DE_LINKEDIN)
-* [Portfolio](TU_PORTFOLIO_U_OTROS_PROYECTOS)
+* [LinkedIn]((https://www.linkedin.com/in/lucas-gaston-martinez/))
+* [Portfolio]((https://github.com/lucasgm94))
