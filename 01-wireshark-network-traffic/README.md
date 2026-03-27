@@ -37,15 +37,6 @@ After deploying my site on AWS Amplify (which enforces HTTPS), I analyzed the se
 
 ---
 
-## 📸 Evidence & Captures
-The `/infrastructure-docs` folder contains the following evidentiary captures:
-
-1. **`http_cleartext_request.png`**: Demonstrates the visibility of HTTP headers and method types.
-2. **`tls_encrypted_payload.png`**: Shows the transition to TLS v1.2, where the payload is obfuscated.
-3. **`traffic_filter_results.png`**: Comparison of captured packets before and after applying protocol filters.
-
----
-
 ## 🎓 Key Takeaways
 * **Defense in Depth:** This lab reinforces why modern cloud deployments (like my AWS Amplify project) must strictly enforce HTTPS.
 * **Network Forensic Skills:** Gained experience in identifying handshake patterns and analyzing the OSI Model Layer 4 (Transport) and Layer 7 (Application).
