@@ -1,0 +1,2 @@
+"U01","Ana Gómez","Finanzas","SOD-01","Crear_Proveedores","Aprobar_Pagos","CRÍTICO","Riesgo de creación de proveedores fantasma y auto-aprobación de pagos."
+"U04","Franco Mastantuono","Sistemas","SOD-02","Admin_Base_Datos","Aprobar_Pagos","ALTO","Usuario técnico con capacidad de alterar registros financieros y aprobar pagos."
