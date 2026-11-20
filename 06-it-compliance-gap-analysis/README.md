@@ -1,4 +1,4 @@
-IT Security Compliance & GAP Analysis (ISO 27001, NIST CSF, CIS)
+#IT Security Compliance & GAP Analysis (ISO 27001, NIST CSF, CIS)
 
 ## 1. Executive Summary
 This document presents a formal **GAP Analysis and Compliance Audit** conducted on the cloud-native infrastructure of **CloudScale FinTech S.A.** The objective was to evaluate the organization's current security posture against three foundational frameworks: **ISO/IEC 27001 (Annex A)**, the **NIST Cybersecurity Framework (CSF)**, and **CIS Benchmarks**, translating technical vulnerabilities into actionable governance metrics.
